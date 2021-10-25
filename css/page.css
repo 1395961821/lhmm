@@ -1,0 +1,70 @@
+/* 面包屑导航 */
+
+#breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: #2f72b6;
+}
+#breadcrumb .breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+#content .card-body {
+  padding: 1rem;
+  background-color: #fff;
+}
+#content .card-body .info {
+  padding-left: 2rem !important;
+}
+#content .card-body .info li {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 0;
+}
+#content .card-body .info li:nth-of-type(2n + 1) {
+  padding-right: 2rem;
+}
+#content .card-body .info li:nth-of-type(2n) {
+  padding-left: 2rem;
+}
+@media (max-width: 992px) {
+  #content .card-body .info li:nth-of-type(2n + 1) {
+    padding-right: 0;
+  }
+  #content .card-body .info li:nth-of-type(2n) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+#content .card-body .info span {
+  color: #999;
+}
+/* 分页导航 */
+#content .pagination {
+  list-style-type: none;
+}
+#content .pagination a {
+  height: auto;
+  line-height: normal;
+  color: #337ab7;
+}
+#content .pagination a:hover {
+  text-decoration: none;
+}
+#content .pagination .active a {
+  color: #fff !important;
+}
+/* 右侧图文信息 */
+#main .right-info .card {
+  margin-bottom: 2rem;
+}
+.card a:hover {
+  color: #fa6722;
+  text-decoration: underline;
+}
+.card a {
+  display: inline-block;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+  text-decoration: none;
+}

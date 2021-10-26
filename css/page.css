@@ -56,11 +56,11 @@
 #main .right-info .card {
   margin-bottom: 2rem;
 }
-.card a:hover {
+.card .card-body a:hover {
   color: #fa6722;
   text-decoration: underline;
 }
-.card a {
+.card .card-body a {
   display: inline-block;
   width: 100%;
   text-overflow: ellipsis;

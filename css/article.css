@@ -1,0 +1,13 @@
+#content>.card .card-header{
+    text-align: center;
+    background: #d8ebfa;
+    padding: 20px 0;
+    color: #2f72b6;
+    font-size: 2px;
+}
+#content>.card .card-header h1{
+    padding: 0 5rem;
+}
+.content{
+    padding: 2rem;
+}

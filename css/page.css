@@ -26,6 +26,9 @@
   padding-left: 2rem;
 }
 @media (max-width: 992px) {
+  #content .card-body .info {
+    padding-left: 1rem !important;
+  }
   #content .card-body .info li:nth-of-type(2n + 1) {
     padding-right: 0;
   }
@@ -53,6 +56,9 @@
   color: #fff !important;
 }
 /* 右侧图文信息 */
+#main .right-info ul {
+  padding-left: 0;
+}
 #main .right-info .card {
   margin-bottom: 2rem;
 }
@@ -60,7 +66,7 @@
   color: #fa6722;
   text-decoration: underline;
 }
-#main .right-info ul a{
+#main .right-info ul a {
   display: inline-block;
   width: 100%;
   text-overflow: ellipsis;
@@ -68,4 +74,3 @@
   color: #666;
   text-decoration: none;
 }
-

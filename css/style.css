@@ -74,11 +74,28 @@
   background-color: rgba(0, 0, 0, 0.5);
   left: 0;
   bottom: 0;
+  height: 50px;
   width: 100%;
-  text-align: center;
+}
+#slide .carousel-text a {
+  display: inline-block;
+  text-indent: 10px;
   color: #fff;
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
+  line-height: 50px;
+  width: 80%;
+  text-decoration: none;
+}
+#slide .carousel-indicators {
+  margin: 0 !important;
+  padding: 0 !important;
+  bottom: 16px;
+  padding-right: 5px !important;
+}
+#slide .carousel-indicators [data-bs-target] {
+  border-radius: 1px;
+  width: 12px !important;
+  height: 4px !important;
 }
 /* 卡片公共参数 */
 .card {
@@ -207,6 +224,17 @@
   }
   #slide .img-fluid {
     height: 250px !important;
+  }
+  #slide .carousel-text a {
+    width: 100%;
+  }
+  #slide .carousel-indicators {
+    justify-content: center !important;
+    bottom: 0 !important;
+  }
+  #slide,
+  .slide{
+    width: 100%;
   }
 }
 @media (max-width: 300px) {
